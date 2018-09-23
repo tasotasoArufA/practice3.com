@@ -1,0 +1,74 @@
+body,ul{
+  margin: 0;
+  padding: 0;
+}
+
+header,section,footer{
+  width: 100%;
+}
+li{
+  list-style: none;
+  font-size: 32px;
+}
+#manu{
+  overflow: hidden;
+}
+#manu li{
+  width: 20%;
+  height: 100px;
+  float: left;
+  }
+#manu li:nth-of-type(even){
+  background-color: blue;
+}
+#manu li:nth-of-type(odd){
+  background-color: skyblue;
+}
+.header-main{
+  height: 300px;
+  position: relative;
+  background-color: grey;
+}
+.block{
+  width: 100px;
+  height: 100px;
+}
+.header-block1{
+  background-color: red;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.header-block2{
+  background-color: orange;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+section{
+  height: 300px;
+  background-color: pink;
+  position: relative;
+}
+.section-set{
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.section-block1{
+  background-color: lime;
+  float: left;
+}
+.section-block2{
+  background-color: green;
+  float: left;
+}
+footer{
+  height: 200px;
+  background-color: black;
+}
